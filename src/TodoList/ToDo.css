@@ -1,0 +1,68 @@
+.maindiv{
+    background-color: thistle;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.centerdiv{
+    padding-left: 20px;
+    margin-top: 100px;
+    height: 500px;
+    background-color:white;
+    width: 350px;
+
+    border-radius: 20px;
+}
+h1{
+    color: purple;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.additem{
+    background-color: white; 
+    border-bottom: 2px solid purple;  
+    box-shadow: none;
+    color: purple;
+    font-size: 20px;
+    outline:none;
+    
+}
+.addbutton{
+    border-radius: 50%;
+    background-color: thistle;
+    color: white;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+}
+.additem:hover{
+    background-color: white;  
+}
+.addbutton:hover{cursor: pointer;
+background-color: green;}
+
+ol{
+    text-align: start;
+    color: purple;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+}
+.listbutton{
+    border-radius: 50%;
+    background-color: thistle;
+    color: white;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+.listbutton:hover{
+    background-color: red;
+}
+.listitem{
+    margin-left: 10px;
+    list-style-type:none;
+    font-size: 30px;
+   
+}
